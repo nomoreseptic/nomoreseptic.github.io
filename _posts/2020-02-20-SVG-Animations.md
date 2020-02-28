@@ -9,10 +9,6 @@ I created my first 2 SVG animations.
 
 My similar "remake" of the original jpeg image using Inkscape:
 
-<!-- <a href="https://codepen.io/heartandhandstraining/pen/dyPaxBp
-" target="_blank"><img src="https://www.keepandshare.com/userpics/h/e/a/r/tnhandstraining/2020-02/sb/ibewlogoanimation-50434753.jpg?ts=1582323732" 
-alt="CODEPEN IBEWlogoAnimation" width="240" height="240" border="10" /></a> -->
-
 {::nomarkdown}
 <svg
       xmlns:dc="http://purl.org/dc/elements/1.1/"
