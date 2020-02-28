@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+  
+  {% include head.html %}
+
+  <body>
+    {% include page-header.html %}
+    
+    <section class="main-content">
+      <div class = "container-fluid">
+
+        <!-- {% for category in site.categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <span><a id="{{ category_name | slugize }}">{{ category_name }}</a></span>
+      </a>
+        {% for post in site.categories[category_name] %}
+          <li><a id="{{post.title}}" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+          </li>
+        {% endfor %}
+    {% endfor %} -->
+
+        {% if page.title == "Contact About" %}
+        <div class = "row justify-content-center">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1sNAJAEr8cGN61CMTHj2QVRMsjMrg3d0dWdojWWBYMUGBow/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        {% endif %}
+      </div>
+
+      {{ content }}
+      
+      {% include page-footer.html %}
+    </section>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% assign categories = post.categories %}
+    {% for category in categories %}
+    <a href="{{site.baseurl}}/categories.html#{{category}}">{{category}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+{{page.categories | join: ', '}}
+<h4>{{ page.title }}</h4>
+<p class="meta">{{ page.date | date_to_string }}</p>
+{{ content }}

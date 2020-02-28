@@ -1,0 +1,49 @@
+<head>
+    <meta charset="UTF-8">
+    {% if site.plugins contains "jekyll-seo-tag" %}
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% else %}
+    {% include social-metatags.html %}
+    {% endif %}
+    
+    {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {%endif %}
+    
+    {% if page_author %}
+    <meta name="author" content="{{ page_author }}" />
+    {% endif %}
+    <meta name="description" content="{{ page_description }}" />
+    {% if page.tags.size > 0 %}
+    <meta name="keywords" itemprop="tags" content="{{ page.tags | join: ', ' | escape }}"/>
+    {% endif %}
+    {%if page.keywords %}
+      <meta name="keywords" itemprop="keywords" content="{{ page.keywords | escape  }}" />
+    {% endif %}
+    {% if page.categories.size > 0 %}
+      <meta name="keywords" itemprop="categories" content="{{ page.categories | join: ', ' | escape  }}" />
+    {% endif %}
+    {% if page.category %}
+      <meta name="keywords" itemprop="category" content="{{ category | escape  }}" />
+    {% endif %}
+    <meta name="keywords" content="Mobile, Nursing, Nurse, Medication, Feeding, Aide, Assistant, Job, Long-term, Elderly, Care, Assisted Living, Online, Training, Scholarship, Refresher, Certification, Class, Course, Preparation, Practice, Review, Test, Exam, Challenge, Skills, Checklist, CPR, First Aid, Free, MT, ND, North Dakota, Montana">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/cayman.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/svg.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <!-- <link rel="shortcut icon" type="image/ico" href="favicon.png"> -->
+    <link href="https://www.keepandshare.com/userpics/h/e/a/r/tandhandstraining_co_/2011-12/ss/heartandhands-6689137.jpg?ts=1325182345" rel="icon" type="image/x-icon" />
+  </head>

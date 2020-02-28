@@ -1,0 +1,28 @@
+<section id="top" class="page-header">
+  <a href="http://heartandhandstraining.com"><img src="https://www.keepandshare.com/graphics/thirdparty/oem_logos/10/183130-1423513517.jpg" alt="logo main page link">
+  </a>
+  {% if page.layout == 'home' %}
+        {% assign page-tagline = site.description | default: site.github.project_tagline | escape %}
+        {% endif %}
+        {% if page.layout == 'page' %}
+        {% assign page-tagline = page.tagline | escape %}
+        {% endif %}
+        {% if page.layout == 'post' %}
+        {% assign page-tagline = page.tagline | escape  %}
+        {% endif %}
+    <h1 class="project-name">{{ site.title }}</h1>
+    <h2 class="project-tagline">{{ site.tagline }}</h2>
+    {% if page.layout == 'post' %}
+    <a href="/categories.html" title="All" class="btn">ALL POSTS and TOPICS LIST</a>
+    {% elsif page.title == 'Contact About' %}
+    <a href="#footer-icons" title="Social Link Icons" class="btn">SKIP to SOCIAL LINKS</a>
+    {% elsif page.title == 'Now' %}
+    <p class="meta">{{ page.update | date: "%b %-d, %Y" }}
+      <!-- {{ page.last_modified_at | date: '%b-%d-%y' }} -->
+    </p>
+    {% else %}
+    <a href="http://heartandhandstraining.github.io/CNA/" class ="btn">CNA Training</a>
+    <a href="http://heartandhandstraining.github.io/wbdv/" class="btn">WebDev</a>
+    <a href="http://vikingsheepart.github.io/main/" class="btn">VikingSheepArt</a>
+    {% endif %}
+  </section>
