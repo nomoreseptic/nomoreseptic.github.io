@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Apps Script to Send Email from Googlesheets
-date: 2020-01-18
+date: 2020-02-28
 categories: WEB
 ---
 
-This function can be utilized by **Google account users** to send automated emails from a Gooogle spreadsheet. Apps Script is a **javascript** based coding language to enhance Google applications and help build new web apps. 
+This function can be utilized by **Google account users** to send automated emails from a Google spreadsheet. Apps Script is a **javascript** based coding language to enhance Google applications and help build new web apps. 
 
 ### Create a Sample Automated Email for Practice
 
@@ -19,7 +19,7 @@ This function can be utilized by **Google account users** to send automated emai
 8. The editor has handy debugging messages and info to help with fixing coding errors.
 9. Check that the Gmail message was received and in desired format.
 
-## Example
+### Example
 
 ![spreadsheet](https://www.keepandshare.com/userpics/h/e/a/r/tnhandstraining/2020-01/sb/screen_shot_2020_01_16_at_1.12.56_pm-778521.jpg?ts=1579209261)
 
@@ -53,11 +53,11 @@ function sendEmails() {
   }
 }
 ```
-## How I used this script:
+### How I used this script:
 
 This is a linked spreadsheet to a Google form with answers to questions, including the submitter's email, in the columns of the form. I used a time-based "trigger" to run this [script project](https://script.google.com/home/triggers). 
 
-## An added note:
+### An added note:
 
 I changed the first line of the script to:
 
