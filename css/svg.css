@@ -576,3 +576,57 @@
         animation: line-anim 6.5s ease-in-out 3.3s;
         animation-iteration-count: infinite;
     }
+
+/* HEART and HANDS FADE-IN */
+
+@keyframes show {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#heart {
+        animation: show 8s 1s ease 1;
+}
+
+#hands {
+        animation: show 15s 1s ease-in-out 1;
+}
+
+ /* AMPERSAND*/
+
+ @keyframes ampersand-pop {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#ampersand {
+        animation: ampersand-pop 20s .1s ease 1;
+}
+
+/* PHONE NUMBER ANIMATION */
+
+@keyframes phone-hide-show {
+    0%{ opacity: 0; }
+    25%{ opacity: 0; }
+    50%{ opacity: 1; }
+    100%{ opacity: 1; }
+}
+    #area-code{
+        opacity: 0;
+        animation: phone-hide-show 9s ease-in-out infinite;
+    }
+
+    #prefix {
+        opacity: 0;
+        animation: phone-hide-show  9s 1.5s ease-in-out infinite;
+    }
+
+    #the-number {
+        opacity: 0;
+        animation: phone-hide-show 9s 3s ease-in-out infinite;
+    }
+
+    #in-paren {
+        opacity: 0;
+        animation: phone-hide-show  9s 6s ease-in-out infinite;
+    }

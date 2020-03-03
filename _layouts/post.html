@@ -2,12 +2,12 @@
 layout: default
 ---
 
-{% assign categories = post.categories %}
-    {% for category in categories %}
-    <a href="{{site.baseurl}}/categories.html#{{category}}">{{category}}</a>
-    {% unless forloop.last %}&nbsp;{% endunless %}
-    {% endfor %}
-{{page.categories | join: ', '}}
+{% assign categories = page.categories %}
+{% for category in categories %}
+    {{page.categories | join: ', '}}
+    <!-- {% unless forloop.last %}&nbsp;{% endunless %} -->
+{% endfor %}
+(<a href= "/categories.html" title="All">All Topics/Posts</a>)
 <h3>{{ page.title }}</h3>
 <p class="meta">{{ page.date | date_to_string }}</p>
 {{ content }}
