@@ -8,14 +8,14 @@
     
     <section class="main-content">
       <div class = "container-fluid">
-        <div class = "row justify-content-center">
-          {% if page.title != "Contact About" %}
+        {% if page.title != "Contact About" %}
           {{ content }}
-        </div>
-          {% else %}
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1sNAJAEr8cGN61CMTHj2QVRMsjMrg3d0dWdojWWBYMUGBow/viewform?embedded=true" width="640" height="820" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-          {% endif %}
       </div>
+        {% else %}
+        <div class = "row justify-content-center">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1sNAJAEr8cGN61CMTHj2QVRMsjMrg3d0dWdojWWBYMUGBow/viewform?embedded=true" width="640" height="820" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        {% endif %}
+        </div>
       {% include page-footer.html %}
     </section>
   </body>
