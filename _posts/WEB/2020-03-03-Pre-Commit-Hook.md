@@ -2,7 +2,7 @@
 layout: post
 title: Pre-Commit Hook
 update:
-categories: WEB
+categories: web
 ---
 
 I added an ```update:``` variable to ```_config.yml``` and a pre-commit hook file at ```/git/hooks/precommit```. The ```update:``` variable is modified/updated with each commit in the ```_config.yml``` file and then in where-ever it appears in the "front-matter" of my site files.

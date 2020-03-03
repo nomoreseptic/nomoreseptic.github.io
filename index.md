@@ -1,5 +1,6 @@
 ---
 layout: index
+permalink: /index.html 
 ---
 
 <h2>Latest Posts</h2>
