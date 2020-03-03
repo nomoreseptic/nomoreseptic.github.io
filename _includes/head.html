@@ -36,7 +36,7 @@
     {% if page.category %}
       <meta name="keywords" itemprop="category" content="{{ category | escape  }}" />
     {% endif %}
-    {% if page.layout == 'home' %}
+    {% if page.layout == 'index' %}
     {% assign page-tagline = site.description | default: site.github.project_tagline | escape %}
     {% endif %}
     {% if page.layout == 'page' %}
