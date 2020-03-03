@@ -1,166 +1,18 @@
-<!DOCTYPE html>
-<html lang="">
-  
-  <head>
-    <meta charset="UTF-8">
-    
-    <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Heart and Hands | Full-Stack Web Developer &amp; Network Engineer Trainee. Past Self-employed CNA/AHA Instructor, Assisted Living Administrator &amp; Shepherd/Fiber Arts Enthusiast</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Heart and Hands" />
-<meta name="author" content="Dawn Ann,RN,MBA" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Full-Stack Web Developer &amp; Network Engineer Trainee. Past Self-employed CNA/AHA Instructor, Assisted Living Administrator &amp; Shepherd/Fiber Arts Enthusiast" />
-<meta property="og:description" content="Full-Stack Web Developer &amp; Network Engineer Trainee. Past Self-employed CNA/AHA Instructor, Assisted Living Administrator &amp; Shepherd/Fiber Arts Enthusiast" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Heart and Hands" />
-<script type="application/ld+json">
-{"url":"http://localhost:4000/","headline":"Heart and Hands","dateModified":"2020-03-03T13:27:06-08:00","name":"Heart and Hands","author":{"@type":"Person","name":"Dawn Ann,RN,MBA"},"description":"Full-Stack Web Developer &amp; Network Engineer Trainee. Past Self-employed CNA/AHA Instructor, Assisted Living Administrator &amp; Shepherd/Fiber Arts Enthusiast","@type":"WebSite","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+---
+layout: index
+---
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=96cb6bd99443c2d9a74bf70471d1860a7d1e1a7c">
-    
-    
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100952871-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-100952871-1');
-    </script>
-    
-    
-    
-    <meta name="description" content="" />
-    
-    
-    
-    
-    
-    
-    
-    <meta name="keywords" content="Mobile, Nursing, Nurse, Medication, Feeding, Aide, Assistant, Job, Long-term, Elderly, Care, Assisted Living, Online, Training, Scholarship, Refresher, Certification, Class, Course, Preparation, Practice, Review, Test, Exam, Challenge, Skills, Checklist, CPR, First Aid, Free, MT, ND, North Dakota, Montana">
-    <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/cayman.css">
-    <link rel="stylesheet" href="/css/svg.css">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="canonical" href="http://localhost:4000/">
-    <!-- <link rel="shortcut icon" type="image/ico" href="favicon.png"> -->
-    <link href="https://www.keepandshare.com/userpics/h/e/a/r/tandhandstraining_co_/2011-12/ss/heartandhands-6689137.jpg?ts=1325182345" rel="icon" type="image/x-icon" />
-  </head>
-
-
-  <body>
-    <section id="top" class="page-header">
-  
-    <div>
-      <a href="http://localhost:4000" title="Home"><img src="https://www.keepandshare.com/graphics/thirdparty/oem_logos/10/183130-1423513517.jpg" alt="logo main page link"></a>
-    </div>
-  
-
-  <div>
-    <h1 class="project-name">Heart and Hands</h1>
-    <h2 class="project-tagline">forever dedicated to learning and teaching new things</h2>
-    
-    <a href="http://heartandhandstraining.github.io/CNA/" class ="btn">CNA Training</a>
-    <a href="http://heartandhandstraining.github.io/wbdv/" class="btn">WEB-Dev</a>
-    <a href="http://vikingsheepart.github.io/main/" class="btn">VikingSheepArt</a>
-    
-    
-  </div>
-</div>
-</section>
-
-
-
-    
-    <section class="main-content">
-      <div class = "container-fluid">
-        
-          <div>
-
-  <h2>Latest Posts</h2>
-
-<div>
-
-    <ul>
-      
-      
-        <!-- <li> -->
-            <h3>
-                <a class="post-link" href="/web/2020/03/03/Pre-Commit-Hook.html" title="Pre-Commit Hook">Pre-Commit Hook</a>
-            </h3>
-            <span class="post-meta">Mar 3, 2020
-                </span>
-            <p>I added an <code class="language-plaintext highlighter-rouge">update:</code> variable to <code class="language-plaintext highlighter-rouge">_config.yml</code> and a pre-commit hook file at <code class="language-plaintext highlighter-rouge">/git/hooks/precommit</code>. The <code class="language-plaintext highlighter-rouge">update:</code> variable is modified/updated with each commit...
-        <!-- </li> -->
-      
-    <ul>
- 
-</ul></p></ul></div>
-
-
-</div>
-
-      </div>
-        
-        </div>
-      <footer id="footer-icons" class="site-footer">
-      
-<!-- Contact and Home icons -->
-
-            <span class="my-span-icon site-footer-owner">
-              &nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="http://localhost:4000" title="Home">
-                <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M21 13v10h-6v-6h-6v6h-6v-10h-3l12-12 12 12h-3zm-1-5.907v-5.093h-3v2.093l3 3z"/></svg>
-              </a>&nbsp;&nbsp;&nbsp;
-              <a href="/now.html" title="NOW: Current Project(s)">
-                <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M22 24h-20v-24h10.189c3.162 0 9.811 7.223 9.811 9.614v14.386zm-10.638-22h-7.362v20h16v-11.543c0-4.107-6-2.457-6-2.457s1.517-6-2.638-6zm.638 12h-5l1-5 1.395 1.744c.76-.467 1.648-.744 2.605-.744 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.482 0-4.544-1.812-4.934-4.184l1.967-.367c.217 1.443 1.464 2.551 2.967 2.551 1.656 0 3-1.345 3-3s-1.344-3-3-3c-.483 0-.935.123-1.339.326l1.339 1.674z"/></svg>
-              </a>&nbsp;&nbsp;&nbsp;
-              <a href="https://www.linkedin.com/in/heartandhandstraining/" title="LINKED-IN" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-              </a>&nbsp;&nbsp;&nbsp;
-              <a href="/contact.html" title="Contact About Heart and Hands">
-                <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>
-              </a>&nbsp;&nbsp;&nbsp;
-              <a href="#top" title="TOP of Page">
-                <svg width="40" height="40"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 15l-5.247-6.44-5.263 6.44-.737-.678 6-7.322 6 7.335-.753.665z"/></svg>
-              </a>
-      </footer>
-  </section>
-  
-  <script>
-      var menu = document.querySelector("nav.site-nav");
-      var checkbox = document.getElementById("nav-trigger");
-      
-      // close menu if click outside menu
-      document.addEventListener("click", function(e) {
-          if (menu != e.target &&
-                  !isDescendant(menu, e.target)) {
-              checkbox.checked = false;
-          }
-      }, false);
-      
-      function isDescendant(parent, child) {
-          var node = child.parentNode;
-          while (node != null) {
-              if (node == parent) {
-                  return true;
-              }
-              node = node.parentNode;
-          }
-          return false;
-      }  
-  </script>
-</footer>
-
-    </section>
-  </body>
-</html>
+<h2>Latest Posts</h2>
+  <ul>
+    {% for post in site.posts %}
+    {% assign date_format = site.cayman.date_format | default: "%b %-d, %Y" %}
+      <!-- <li> -->
+          <h3>
+              <a class="post-link" href="{{ post.url}}" title="{{ post.title }}">{{ post.title | escape }}</a>
+          </h3>
+          <span class="post-meta">{{ post.date | date: date_format }}
+              </span>
+          {{ post.excerpt | markdownify | truncatewords: 30 }}
+      <!-- </li> -->
+    {% endfor %}
+  <ul>
