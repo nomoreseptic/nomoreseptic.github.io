@@ -11,7 +11,7 @@ order: 0
 I added an initial css-animated logo to the Contact Page. It needs work yet.
 
 I deleted several posts that are not working on the github site. I
-was unable to figure out why they quit working there.
+was unable to figure out why they quit working there. That did not solve my problem of my post pages working locally but not on github.
 
 Prior to the above, I was working on (and will continue to improve upon) displaying [SVG images]({{ '/web/2020/02/20/SVG-Animations' }}) along with their animation on this jekyll github-pages site. The following is an animated svg image.
 
