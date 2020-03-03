@@ -9,7 +9,7 @@ ref: now
 order: 0
 ---
 
-I added an initial css-animated logo to the Contact Page.
+I added an initial css-animated logo to the Contact Page.again
 
 I have my post-listings-by-categories page up and running. At the moment I am trying to fix a problem with the addressing of my original first 3 posts on this site, both on the home page and on the topics page. All works fine on my local machine, but they are not showing on github. I have tried numerous things, and it makes no sense that the other test pages I put up are linked up fine, and they are built the same. As per my GLITCH post, I am just going to sit on this for a few days to make progress in other areas to see if something resolves on Github.
 
