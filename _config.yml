@@ -11,6 +11,8 @@ share: true
 date: 
 update: 
 
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
 # twitter_username: VikingSheepart
 # github_username:  HeartAndHandsTraining
 
