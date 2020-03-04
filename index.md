@@ -1,6 +1,7 @@
 ---
 layout: index
 permalink: /index.html 
+title: Home
 ---
 
 <h2>Latest Posts</h2>
