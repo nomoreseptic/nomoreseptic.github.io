@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Pre-Commit Hook
-update:
 categories: WEB
 ---
 
