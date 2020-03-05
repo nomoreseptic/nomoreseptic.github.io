@@ -170,25 +170,25 @@ order: 1
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.28555489px;line-height:1.25;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow, Condensed';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:0.95835972;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.45833397;stroke-opacity:0.94117647;paint-order:markers stroke fill"
-         x="38.974403"
+         x="39.170834"
          y="158.76732"
          id="phone"
          transform="scale(1.0509086,0.95155753)"><tspan
             id="the-number"
-            x="38.974403"
+            x="39.170834"
             y="158.76732"
             style="font-size:8.28555489px;stroke:#ffffff;stroke-width:0.95835972;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.45833397;stroke-opacity:0.94117647">4262</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.23113823px;line-height:1.25;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow, Condensed';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:0.95206577;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.45833397;stroke-opacity:1;paint-order:markers stroke fill"
-         x="56.243832"
-         y="157.54529"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.1314497px;line-height:1.25;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow, Condensed';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:0.94053519;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.45833397;stroke-opacity:1;paint-order:markers stroke fill"
+         x="57.336906"
+         y="155.41132"
          id="in-paren"
-         transform="scale(1.043784,0.95805261)"><tspan
+         transform="scale(1.0296251,0.97122726)"><tspan
             id="4CNA"
-            x="56.243832"
-            y="157.54529"
-            style="font-size:8.23113823px;stroke:#ffffff;stroke-width:0.95206577;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.45833397;stroke-opacity:1">(4CNA)</tspan></text>
+            x="57.336906"
+            y="155.41132"
+            style="font-size:8.1314497px;stroke:#ffffff;stroke-width:0.94053519;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.45833397;stroke-opacity:1">(4CNA)</tspan></text>
       <text
          transform="scale(1.0229388,0.97757556)"
          id="text839"
