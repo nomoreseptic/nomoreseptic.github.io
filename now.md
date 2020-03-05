@@ -8,7 +8,10 @@ ref: now
 order: 0
 ---
 
-I added an initial css-animated logo to the Contact Page. It needs work yet. I, also, see my "Now" page date is not updating, so I will be checking on that. Trying now.
+I am working on miscellaneous cleanup and prettifying my site.
+A few days ago, I added an initial css-animated logo to the Contact Page.
+
+I had to fix the git pre-commit hook for date modification on the "Now" page date. I had not quite configured it when I had to re-initialize git for my repository after unitializing it when I was trying to figure out why my posts were not all showing up on the github site.
 
 I fixed an issue with the routing of my post links on github when they functioned perfectly on my local machine. It seems I accidently deleted some front matter and permalinks or reverted git too far back in my site building. However, I am glad to have been faced with the challenge of fixing the issue because it helped me understand th path variables and how they are used on github. My site is not configured exactly as before because I learned how to make use of ```baseurl```. This page instantly shed enlightment on ```baseurl```:[Clearing Up Confusion Around baseurl -- Again](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)
 
