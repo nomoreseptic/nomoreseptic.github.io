@@ -6,24 +6,23 @@
       <a href="{{ site.url }}" title="Home"><img src="https://www.keepandshare.com/graphics/thirdparty/oem_logos/10/183130-1423513517.jpg" alt="logo main page link"></a>
     </div>
   {% endif %}
-
-  <div>
-    <h1 class="project-name">{{ site.title }}</h1>
-    <h2 class="project-tagline">{{ site.tagline }}</h2>
-    {% if page.title != 'Contact About' %}
-    <a href="http://heartandhandstraining.github.io/CNA/" class ="btn">CNA Training</a>
-    <a href="http://heartandhandstraining.github.io/wbdv/" class="btn">WEB-Dev</a>
-    <a href="http://vikingsheepart.github.io/main/" class="btn">VikingSheepArt</a>
-    {% else %}
-    <a href="#footer-icons" title="Social Link Icons" class="btn">SKIP to SOCIAL LINKS</a>
-    {% endif %}
-    {% if page.title == 'Now' %}
-    <div class=" meta">{{ page.update | date: "%b %-d, %Y" }}
+    <div>
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.tagline }}</h2>
+      {% if page.title != 'Contact About' %}
+      <a href="http://heartandhandstraining.github.io/CNA/" class ="btn">CNA Training</a>
+      <a href="http://heartandhandstraining.github.io/wbdv/" class="btn">WEB-Dev</a>
+      <a href="http://vikingsheepart.github.io/main/" class="btn">VikingSheepArt</a>
+      {% else %}
+      <a href="#footer-icons" title="Social Link Icons" class="btn">SKIP to SOCIAL LINKS</a>
+      {% endif %}
+      {% if page.title == 'Now' %}
+      <div class=" meta">{{ page.update | date: "%b %-d, %Y" }}
+      </div>
+      </span>
+      {% endif %}
     </div>
-    </span>
-    {% endif %}
   </div>
-</div>
 </section>
 
 

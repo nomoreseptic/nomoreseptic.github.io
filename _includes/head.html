@@ -6,11 +6,9 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
-    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" -->
     {% else %}
     {% include social-metatags.html %}
     {% endif %}
-    
     {% if site.google_analytics %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
@@ -20,7 +18,6 @@
         gtag('config', '{{ site.google_analytics }}');
     </script>
     {%endif %}
-    
     {% if page_author %}
     <meta name="author" content="{{ page_author }}" />
     {% endif %}
@@ -54,6 +51,5 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-    <!-- <link rel="shortcut icon" type="image/ico" href="favicon.png"> -->
     <link href="https://www.keepandshare.com/userpics/h/e/a/r/tandhandstraining_co_/2011-12/ss/heartandhands-6689137.jpg?ts=1325182345" rel="icon" type="image/x-icon" />
   </head>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Email via Goole Apps Spreadsheet
+title: Email via Google Apps Spreadsheet
 categories: WEB
 ---
 
