@@ -18,7 +18,7 @@
 }
 
 #hollywood {
-        animation: holly-wood-pop 1s 9s ease 1;
+        animation: holly-wood-pop 1s 7s ease 1;
 }
 /* FIST */
 @keyframes popup-fist {
@@ -39,7 +39,7 @@
 .fist {
     opacity: 1;
     transform: translateY(0px);
-    animation: popup-fist 1s 9s ease 1;
+    animation: popup-fist 1s 7s ease 1;
 }
 
 /* IBEW LOCAL 40 */
@@ -346,7 +346,7 @@
 }
 
 #since, #year {
-        animation: hide-show 9s .1s ease-in-out 1;
+        animation: hide-show 7s .1s ease-in-out 1;
 }
 
 
