@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Now
-update: 2020-03-03
+date: 2020-03-05
 tagline: What I'm doing now
 permalink: /now.html
 ref: now
 order: 0
 ---
 
-I added an initial css-animated logo to the Contact Page. It needs work yet. I, also, see my "Now" page date is not updating, so I will be checking on that.
+I added an initial css-animated logo to the Contact Page. It needs work yet. I, also, see my "Now" page date is not updating, so I will be checking on that. Trying now.
 
 I fixed an issue with the routing of my post links on github when they functioned perfectly on my local machine. It seems I accidently deleted some front matter and permalinks or reverted git too far back in my site building. However, I am glad to have been faced with the challenge of fixing the issue because it helped me understand th path variables and how they are used on github. My site is not configured exactly as before because I learned how to make use of ```baseurl```. This page instantly shed enlightment on ```baseurl```:[Clearing Up Confusion Around baseurl -- Again](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)
 
