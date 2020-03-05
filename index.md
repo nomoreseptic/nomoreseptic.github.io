@@ -2,6 +2,7 @@
 layout: index
 permalink: /index.html 
 title: Home
+date: 2020-03-05
 ---
 
 <h2>Latest Posts</h2>
