@@ -12,7 +12,7 @@ date:
 update: 
 
 categories: [CNA, WEB, VSA]
-permalink: /:title
+permalink: /:title/
 
 # twitter_username: VikingSheepart
 # github_username:  HeartAndHandsTraining
