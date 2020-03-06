@@ -2,8 +2,7 @@
 layout: page
 title: Contact About
 tagline: Contact and More Info
-date: 2020-03-05
-permalink: /contact.html
+date: 2020-03-06
 ref: contact
 order: 1
 ---
