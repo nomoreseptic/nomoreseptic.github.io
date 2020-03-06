@@ -9,7 +9,7 @@ order: 0
 ---
 
 I am working on miscellaneous cleanup and prettifying my site.
-A few days ago, I added an initial css-animated logo to the Contact Page.oo
+A few days ago, I added an initial css-animated logo to the Contact Page.
 
 I had to fix the git pre-commit hook for date modification on the "Now" page date. I had not quite configured it when I had to re-initialize git for my repository after unitializing it when I was trying to figure out why my posts were not all showing up on the github site.
 
