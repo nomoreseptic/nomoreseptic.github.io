@@ -1,6 +1,5 @@
 ---
 layout: index
-permalink: / 
 title: Home
 date: 2020-03-06
 ---
