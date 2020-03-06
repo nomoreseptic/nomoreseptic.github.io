@@ -3,7 +3,7 @@ layout: page
 title: Now
 date: 2020-03-06
 tagline: What I'm doing now
-permalink: /now.html
+permalink: /now/
 ref: now
 order: 0
 ---

@@ -1,8 +1,8 @@
 ---
 layout: index
-permalink: /index.html 
+permalink: / 
 title: Home
-date: 2020-03-05
+date: 2020-03-06
 ---
 
 <h2>Latest Posts</h2>
