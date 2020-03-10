@@ -1,14 +1,5 @@
 <head>
     <meta charset="UTF-8">
-    {% if site.plugins contains "jekyll-seo-tag" %}
-    {% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
-    {% else %}
-    {% include social-metatags.html %}
-    {% endif %}
     {% if site.google_analytics %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
@@ -18,6 +9,15 @@
         gtag('config', '{{ site.google_analytics }}');
     </script>
     {%endif %}
+    {% if site.plugins contains "jekyll-seo-tag" %}
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+    {% else %}
+    {% include social-metatags.html %}
+    {% endif %}
     {% if page_author %}
     <meta name="author" content="{{ page_author }}" />
     {% endif %}
@@ -43,8 +43,6 @@
     {% if page.layout == 'post' %}
     {% assign page-tagline = page.tagline | escape  %}
     {% endif %}
-    <meta name="keywords" content="Mobile, Nursing, Nurse, Medication, Feeding, Aide, Assistant, Job, Long-term, Elderly, Care, Assisted Living, Online, Training, Scholarship, Refresher, Certification, Class, Course, Preparation, Practice, Review, Test, Exam, Challenge, Skills, Checklist, CPR, First Aid, Free, MT, ND, North Dakota, Montana">
-    <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/cayman.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/svg.css">

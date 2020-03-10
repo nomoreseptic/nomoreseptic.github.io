@@ -1,7 +1,8 @@
 title: Heart and Hands
 tagline: forever dedicated to learning and teaching new things
 
-description: Full-Stack Web Developer & Network Engineer Trainee. Past Self-employed CNA/AHA Instructor, Assisted Living Administrator & Shepherd/Fiber Arts Enthusiast
+description: Full-Stack Web Developer & Network Engineer Trainee. Past Self-employed CNA/AHA Instructor, Long-Term Care Administrator & Shepherd/Fiber Arts Enthusiast
+keywords: Mobile, Nursing, Nurse, Medication, Feeding, Aide, Assistant, Job, Long-term, Elderly, Care, Assisted Living, Online, Training, Scholarship, Refresher, Certification, Class, Course, Preparation, Practice, Review, Test, Exam, Challenge, Skills, Checklist, CPR, First Aid, Free, MT, ND, North Dakota, Montana
 email: heartandhandstraining@pm.me
 url: "http://www.heartandhandstraining.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -34,6 +35,7 @@ relative_links:
 # site info, downloadable?
 show_downloads: "false"
 google_analytics: UA-100952871-1
+google-site-verification: NVpI7rqgj-WpOrDTXTX5EtqDUw57hNfVRYW3SKTUfoQ
 
 # Exclude from processing.
 # The following items will not be processed, by default.
