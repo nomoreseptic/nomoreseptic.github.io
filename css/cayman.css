@@ -140,10 +140,11 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 42em) { .btn { display: block; width: 100%; padding: 0.75rem; font-size: 0.9rem; }
   .btn + .btn { margin-top: 1rem; margin-left: 0; } }
 
-.page-header { color: #fff; text-align: center; background: #c31432;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
+.page-header { background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 @media screen and (min-width: 64em) { .page-header { padding: 5rem 6rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
