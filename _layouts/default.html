@@ -12,14 +12,13 @@ categories: [CNA, WEB, VSA]
     
     <section class="main-content">
       <div class = "container-fluid">
-        {% if page.title != "Contact About" %}
           {{ content }}
       </div>
-        {% else %}
+      {% if page.title == "Contact About" %}
         <div class = "row justify-content-center">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1sNAJAEr8cGN61CMTHj2QVRMsjMrg3d0dWdojWWBYMUGBow/viewform?embedded=true" width="640" height="820" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        {% endif %}
         </div>
+      {% endif %}
       {% include page-footer.html %}
     </section>
   </body>
