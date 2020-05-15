@@ -16,6 +16,7 @@
 }
 
 #bolt {
+    fill: #6676a8;
     animation: show .25s ease-in-out forwards .5s;
 }
 
@@ -87,6 +88,7 @@
 }
 
 #horn {
+    fill:#043d11;
     animation: show .5s ease-in forwards 2.2s;
 }
 
@@ -102,4 +104,18 @@
 #hub, #advance {
     opacity: 0;
     animation: show 1s ease-in forwards 2.4s;
+}
+
+#Easy, #textEASY {
+    font-family: 'Kaushan Script', cursive;
+    /* stroke: #ffffff; */
+}
+
+#textEASY {
+    fill: #ffffff;
+    font-size: .75em;
+}
+
+#Easy {
+    font-size: 1.5em;
 }
