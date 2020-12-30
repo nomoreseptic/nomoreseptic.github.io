@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Now
+title: Project
 date: 2020-03-10
 tagline: What I'm doing now
 ref: now

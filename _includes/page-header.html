@@ -75,6 +75,10 @@
    </div>
       <h1 class="project-name">{{ site.title }}</h1>
       <h2 class="project-tagline tagline-anim">{{ site.tagline }}</h2>
-      <a href="/project" title="Training Posts" class ="btn">Project</a>
+      {%if page.title == 'Project' %}
+         <a href="{{ site.url }}" title="Training Posts" class ="btn">Updates</a>
+      {% else %}
+         <a href="/project" title="Training Posts" class ="btn">Project</a>
+         {% endif %}
     </div>
 </section>
