@@ -1,9 +1,9 @@
-title: Don Easy
-tagline: Hollywood Entertainment Industry
+title: Circle G - Falconrim
+tagline: Neighborhood Sewer Project
 
-description: 
+description: Sewer Line Project for Circle G and Falconrim
 email: doneasy1@gmail.com
-url: "https://doneasy1.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://doneasy1/nomoreseptic.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 author: Don Easy
 share: true
@@ -11,10 +11,9 @@ share: true
 date: 
 update: 
 
-categories: [connect, consult, contract]
+categories: 
 permalink: :title/
 
-# twitter_username:
 # github_username:
 
 # Build settings
