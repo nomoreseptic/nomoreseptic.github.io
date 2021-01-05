@@ -1,5 +1,5 @@
 <section class="page-header">
-   <div class ="top">
+   <div id="top" class ="center">
       <?xml version="1.0" encoding="UTF-8" standalone="no"?>
       <svg
       xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -80,12 +80,12 @@
          <div class="wave">
          </div>
       </div>
-      <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline tagline-anim">{{ site.tagline }}</h2>
-      {%if page.title == 'Project' %}
-         <a href="{{ site.url }}" title="Training Posts" class ="btn">Updates</a>
-      {% else %}
-         <a href="/project" title="Training Posts" class ="btn">Project</a>
+         <h1 class="project-name">{{ site.title }}</h1>
+         <h2 class="project-tagline tagline-anim">{{ site.tagline }}</h2>
+         {%if page.title == 'Project' %}
+            <a href="{{ site.url }}" title="Training Posts" class ="btn">Updates</a>
+         {% else %}
+            <a href="/project" title="Training Posts" class ="btn">Project</a>
          {% endif %}
     </div>
 </section>
