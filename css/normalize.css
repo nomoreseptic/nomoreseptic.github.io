@@ -36,14 +36,14 @@ details,
 figcaption,
 figure,
 footer,
-page-header,
+header,
 hgroup,
 main,
 menu,
 nav,
 section,
-summary, 
-svg{
+summary
+{
   display: block;
 }
 
