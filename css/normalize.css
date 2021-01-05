@@ -36,15 +36,15 @@ details,
 figcaption,
 figure,
 footer,
-header,
+page-header,
 hgroup,
 main,
 menu,
 nav,
 section,
-summary {
+summary, 
+svg{
   display: block;
-  align: center;
 }
 
 /**
