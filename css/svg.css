@@ -1,3 +1,20 @@
+.tagline-anim {
+    background: radial-gradient(circle, #ed457d 0%,  #ab47bd 30%, #7149bc 50%, #50af53 70%, #3771c8 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 400%;
+    animation: gradient 10s linear infinite alternate
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+}
+
 /* water pipe */
 svg {
     place-content: center
