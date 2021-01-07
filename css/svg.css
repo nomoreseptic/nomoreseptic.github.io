@@ -79,3 +79,110 @@
 		transform: translate(-50%, -75%) rotate(360deg);
 	}
 }
+
+/* old */
+
+/* #bolt {
+    fill: #6676a8;
+    animation: show .25s ease-in-out forwards .5s;
+}
+
+.line1 {
+    opacity: .9;
+    animation: show .5s ease .6s;
+}
+
+.line2 {
+    animation: show .25s ease .7s;
+}
+
+
+#h{
+    animation: show  3.5s ease-in-out forwards .8s;
+}
+
+#o1 {
+    animation: show  3.5s ease-in-out forwards .9s;
+}
+
+#L1 {
+    animation: show  3.5s ease-in-out forwards 1.0s;
+}
+
+#L2 {
+    animation: show  3.5s ease-in-out forwards 1.1s;
+}
+
+#Y { 
+    animation: show  3.5s ease-in-out forwards 1.2s;
+}
+
+#W {
+    animation: show  3.5s ease-in-out forwards 1.3s;
+}
+
+#o2 {
+    animation: show  3.5s ease-in-out forwards 1.4s;
+}
+
+#o3 {
+    animation: show  3.5s ease-in-out forwards 1.5s;
+}
+
+#D {
+    animation: show  3.5s ease-in-out forwards 1.6s;
+}
+
+#step {
+    animation: show  1s ease-in-out forwards 1.7s;
+}
+
+#forty {
+    animation: show  1.75s ease-in-out forwards 1.8s;
+}
+
+#plus {
+    animation: show  1.5s ease-in-out forwards 1.9s;
+}
+
+#years {
+    animation: show  1s ease-in-out forwards 2.0s;
+}
+
+#bulb {
+    opacity: 0;
+    animation: show .5s ease-in-out forwards 2.1s;
+}
+
+#horn {
+    fill:#043d11;
+    animation: show .5s ease-in forwards 2.2s;
+}
+
+#easy {
+        animation: show .5s ease-in forwards 2.3s;
+    }
+
+@keyframes show {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#hub, #advance {
+    opacity: 0;
+    animation: show 1s ease-in forwards 2.4s;
+}
+
+#Easy, #textEASY {
+    font-family: 'Kaushan Script', cursive;
+    /* stroke: #ffffff; */
+}
+
+#textEASY {
+    fill: #ffffff;
+    font-size: .75em;
+}
+
+#Easy {
+    font-size: 1.5em;
+} */
