@@ -15,17 +15,17 @@
     }
 }
 
-/* water pipe */
+/* sewer pipe */
 .circle
 {
 	position: relative;
 	left: 50%;
-	transform: translate(-50%, -20%);
-	width: 3.5em;
-	height: 3.5em;
+	transform: translate(-50%, -50%);
+	width: 5.5em;
+	height: 5.5em;
 	background: #ccc;
-	border: .15em solid #fff;
-	box-shadow: 0 0 0 .25em #000;
+	border: .2em solid #fff;
+	box-shadow: 0 0 0 .35em #000;
 	border-radius: 50%;
   overflow: hidden;
 }
@@ -84,33 +84,33 @@
 #NO {
     /* animation: show 3s 0s ease 1 */
 	opacity: 0;
-	animation: a-hide-show 9s ease-in-out infinite
+	animation: a-hide-show 9s ease infinite
 }
 
 #MORE {
     
     /* animation: show 3s 1.5s ease 1 */
 	opacity: 0;
-	animation: a-hide-show 9s 1.5s ease-in-out infinite
+	animation: a-hide-show 9s 1.5s ease infinite
 }
 
 #SEPTIC {
     /* animation: show 3s 3s ease 1 */
 	opacity: 0;
-	animation: a-hide-show 9s 3s ease-in-out infinite
+	animation: a-hide-show 9s 3s ease infinite
 }
 
 @keyframes a-hide-show {
 	0% {
-		opacity: 0
+		opacity: 1
 	}
 	25% {
-		opacity: 0
+		opacity: 1
 	}
 	50% {
-		opacity: 1
+		opacity: 0
 	}
 	100% {
-		opacity: 1
+		opacity: 0
 	}
 }
