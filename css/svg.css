@@ -99,3 +99,18 @@
 	opacity: 0;
 	animation: a-hide-show 9s 3s ease-in-out infinite
 }
+
+@keyframes a-hide-show {
+	0% {
+		opacity: 0
+	}
+	25% {
+		opacity: 0
+	}
+	50% {
+		opacity: 1
+	}
+	100% {
+		opacity: 1
+	}
+}
