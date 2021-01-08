@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Contact About
+title: Contact
 tagline: Contact and More Info
-date: 2020-03-06
+date: 
 ref: contact
 order: 1
 ---

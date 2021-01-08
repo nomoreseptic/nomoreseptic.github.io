@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Home
-date: 2020-03-06
+date: 
 ---
 
 <h2>Latest Posts</h2>
