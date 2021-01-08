@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Project
-date: 2020-03-10
-tagline: What I'm doing now
-ref: now
+title: Proposal
+date: 
+tagline: Original
+ref: proposal
 order: 0
 ---
 
