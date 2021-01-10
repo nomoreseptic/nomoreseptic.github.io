@@ -9,25 +9,21 @@ categories: []
 
   <body>
     {% include page-header.html %}
-    
     <section class="main-content">
       <div class = "container-fluid">
-          {{ content }}
-      </div>
+        {{ content }}
       {% if page.title == "Contact" %}
-      <div class = "row justify-content-center">
-        <div>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdO-uZ7rBx2DDFs2SRobcK3J4_Wv4Ps1-DDF7B5fxMhcGw3Cg/viewform?embedded=true" width="100%" height="912" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
-      {% endif %}  
+      <div class="row justify-content-center">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdO-uZ7rBx2DDFs2SRobcK3J4_Wv4Ps1-DDF7B5fxMhcGw3Cg/viewform?embedded=true" width="640" height="910" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+      </div>
+      {% endif %}
+      <div class="row justify-content-center">
       {% if page.title == "Proposal" %}
-        <div class = "row justify-content-center">
-          <a href="/sources/#RESOURCES" title="Links for Original Docs">=> Original Docs</a>
-          <iframe src="https://www.keepandshare.com/doc/8257235/183130?da=y&ifr=y" width="100%" height="700" scrolling="yes" frameborder="1"></iframe>
-        </div>
-        <div>
-          <iframe src="https://www.keepandshare.com/doc/8257244/183130?da=y&ifr=y" width="100%" height="1200" scrolling="yes" frameborder="1"></iframe>
-        </div>
+        <a href="/sources/#RESOURCES" title="Links for Original Docs">=> Original Docs</a>
+        <iframe src="https://www.keepandshare.com/doc/8257235/183130?da=y&ifr=y" width="100%" height="700" scrolling="yes" frameborder="0"></iframe>
+      </div>
+      <div>
+        <iframe src="https://www.keepandshare.com/doc/8257244/183130?da=y&ifr=y" width="100%" height="1200" scrolling="yes" frameborder="0"></iframe>
       </div>
       {% endif %}
       {% include page-footer.html %}
