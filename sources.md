@@ -6,4 +6,4 @@ tagline: Project-related Documents
 # Documents
 #### Sewer Line Proposal
 **Original**
-[City Engineer Letter (pdf)](https://www.keepandshare.com/doc/8257235/city-engineer-letter-pdf-389k?da=y), [Sewer Feasibility Map](https://www.keepandshare.com/doc/8257236/sewer-feasibility-map-pdf-646k?da=y)
+[City Engineer Letter](https://www.keepandshare.com/doc/8257235/city-engineer-letter-pdf-389k?da=y), [Sewer Feasibility Map](https://www.keepandshare.com/doc/8257236/sewer-feasibility-map-pdf-646k?da=y)
